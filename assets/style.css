@@ -237,3 +237,9 @@ h2 {
   .edu h3 { font-size: 10.5pt; margin-bottom: 1.5mm; }
   .edu p { font-size: 9pt; }
 }
+
+/* App Store links on the app icons */
+.apps a { display: block; color: inherit; }
+.apps a:hover { text-decoration: none; }
+.job__applink { flex: none; border-radius: 22.37%; transition: transform .3s cubic-bezier(.2,.8,.2,1); }
+.job__applink:hover { transform: scale(1.08); }
